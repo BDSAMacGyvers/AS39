@@ -109,5 +109,10 @@ namespace EventSpace
             throw new NotImplementedException();
         }
 
+        public Invitation getInvitation()
+        {
+            return new Invitation();
+        }
+
     }
 }

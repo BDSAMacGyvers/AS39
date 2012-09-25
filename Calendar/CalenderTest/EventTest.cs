@@ -99,6 +99,23 @@ namespace CalenderTest
         }
 
         /// <summary>
+        ///A test for sendInvitations
+        ///</summary>
+        [TestMethod()]
+        public void sendInvitationsTest()
+        {
+            Event target = new Event();
+            User user = new User();
+
+            target.addUser(user);
+
+            target.sendInvitations();
+
+            Assert.IsTrue(user.Calendar.Invitations.Contains(target.getInvitation()));
+
+        }
+
+        /// <summary>
         ///A test for resendInvitations
         ///</summary>
         [TestMethod()]
@@ -107,92 +124,6 @@ namespace CalenderTest
             Event target = new Event(); // TODO: Initialize to an appropriate value
             target.resendInvitations();
             Assert.Inconclusive("A method that does not return a value cannot be verified.");
-        }
-
-        /// <summary>
-        ///A test for sendInvitations
-        ///</summary>
-        [TestMethod()]
-        public void sendInvitationsTest()
-        {
-            Event target = new Event(); // TODO: Initialize to an appropriate value
-            target.sendInvitations();
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
-        }
-
-        /// <summary>
-        ///A test for description
-        ///</summary>
-        [TestMethod()]
-        public void descriptionTest()
-        {
-            Event target = new Event(); // TODO: Initialize to an appropriate value
-            string expected = string.Empty; // TODO: Initialize to an appropriate value
-            string actual;
-            target.description = expected;
-            actual = target.description;
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for end
-        ///</summary>
-        [TestMethod()]
-        public void endTest()
-        {
-            Event target = new Event(); // TODO: Initialize to an appropriate value
-            DateTime expected = new DateTime(); // TODO: Initialize to an appropriate value
-            DateTime actual;
-            target.end = expected;
-            actual = target.end;
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for id
-        ///</summary>
-        [TestMethod()]
-        public void idTest()
-        {
-            Event target = new Event(); // TODO: Initialize to an appropriate value
-            int expected = 0; // TODO: Initialize to an appropriate value
-            int actual;
-            target.id = expected;
-            actual = target.id;
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for start
-        ///</summary>
-        [TestMethod()]
-        public void startTest()
-        {
-            Event target = new Event(); // TODO: Initialize to an appropriate value
-            DateTime expected = new DateTime(); // TODO: Initialize to an appropriate value
-            DateTime actual;
-            target.start = expected;
-            actual = target.start;
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for title
-        ///</summary>
-        [TestMethod()]
-        public void titleTest()
-        {
-            Event target = new Event(); // TODO: Initialize to an appropriate value
-            string expected = string.Empty; // TODO: Initialize to an appropriate value
-            string actual;
-            target.title = expected;
-            actual = target.title;
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
         }
     }
 }
