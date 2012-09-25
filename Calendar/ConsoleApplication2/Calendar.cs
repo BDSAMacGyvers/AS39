@@ -6,7 +6,7 @@ using EventSpace;
 
 namespace Domain
 {
-    class Calendar
+    public class Calendar
     {
         private User ID { get;set; }  
 
@@ -16,13 +16,21 @@ namespace Domain
 
         private HashSet<Invitation> invitations;
 
-        public void CreateEvent() { }
+        public Calendar()
+        {
+        }
 
-        public void DeleteEvent() { }
+        public bool CreateEvent() {throw new NotImplementedException(); return true; }
 
-        public Event GetEvent(int id) { }
+        public void DeleteEvent(int eventId) { throw new NotImplementedException(); }
 
-        public void Respond() { }
+        public Event GetEvent(int id)
+        {
+            throw new NotImplementedException();
+            //return new Event(); 
+        }
+
+        public void Respond() { throw new NotImplementedException(); }
 
     }
 }

@@ -10,7 +10,7 @@ namespace EventSpace
     /// <summary>
     /// Class representing an event in the calendar system
     /// </summary>
-    class Event
+    public class Event
     {
         /// <summary>
         /// Unique ID for this event

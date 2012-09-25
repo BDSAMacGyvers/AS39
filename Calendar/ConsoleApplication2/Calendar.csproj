@@ -7,7 +7,7 @@
     <ProjectGuid>{48879496-DC17-4FF0-B37D-2DABB9947E2B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Calendar</RootNamespace>
+    <RootNamespace>EventSpace</RootNamespace>
     <AssemblyName>ConsoleApplication2</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calendar.cs" />
+    <Compile Include="CalendarOverview.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="Invitation.cs" />
     <Compile Include="Message.cs" />
