@@ -10,10 +10,19 @@ namespace Domain
     {
         private User ID { get;set; }  
 
-        private HashSet<EventSpace> events;
+        private HashSet<Event> events;
 
+        private HashSet<User> viewedBy;
 
+        private HashSet<Invitation> invitations;
 
+        public void CreateEvent() { }
+
+        public void DeleteEvent() { }
+
+        public Event GetEvent(int id) { }
+
+        public void Respond() { }
 
     }
 }
