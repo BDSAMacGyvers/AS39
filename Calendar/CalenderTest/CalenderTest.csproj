@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{23992CD6-4691-421D-A573-CE68E95EEBD5}</ProjectGuid>
-    <ProjectGuid>{6E041589-E59D-4E81-A023-1BC5A9FF7C1A}</ProjectGuid>
+    <ProjectGuid>{23992CD6-4691-421D-A573-CE68E95EEBD5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CalenderTest</RootNamespace>
