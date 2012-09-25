@@ -20,7 +20,7 @@ namespace Domain
 
         public void DeleteEvent() { }
 
-        public Event GetEvent(int id) { }
+        public Event GetEvent(int id) { throw new NotImplementedException(); }
 
         public void Respond() { }
 

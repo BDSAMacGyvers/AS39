@@ -10,6 +10,6 @@ namespace EventSpace
     {
         private User Sender;
 
-        private string Message {get; set;}
+        private string message {get; set;}
     }
 }

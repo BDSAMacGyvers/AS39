@@ -10,7 +10,7 @@ namespace EventSpace
     /// <summary>
     /// Class representing an event in the calendar system
     /// </summary>
-    class Event
+    public class Event
     {
         /// <summary>
         /// Unique ID for this event
@@ -51,6 +51,13 @@ namespace EventSpace
         /// A list of users who are invited to the event
         /// </summary>
         public User[] userList;
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        public Event() 
+        { 
+        }
 
         /// <summary>
         /// Immutable struct representing a latitude longitude
