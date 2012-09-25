@@ -7,6 +7,6 @@ namespace EventSpace
 {
     enum Response
     {
-        yes, no, maybe
+        YES, NO, MAYBE
     }
 }
