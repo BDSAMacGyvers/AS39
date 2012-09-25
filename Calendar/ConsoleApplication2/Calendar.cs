@@ -14,7 +14,7 @@ namespace Domain
 
         private HashSet<User> viewedBy;
 
-        private HashSet<Invitation> invitations;
+        public HashSet<Invitation> Invitations;
 
         public Calendar()
         {

@@ -15,6 +15,6 @@ namespace Domain
 
         private string password { get; set; }
 
-        private Calendar calendar { get; set; }
+        public Calendar Calendar { get; set; }
     }
 }
