@@ -7,5 +7,12 @@ namespace Domain
 {
     class User
     {
+        private string id { get; set; }
+
+        private string name { get; set; }
+
+        private string username { get; set; }
+
+        private string password { get; set; }
     }
 }
