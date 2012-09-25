@@ -53,6 +53,13 @@ namespace EventSpace
         public User[] userList;
 
         /// <summary>
+        /// Constructor
+        /// </summary>
+        public Event() 
+        { 
+        }
+
+        /// <summary>
         /// Immutable struct representing a latitude longitude
         /// </summary>
         public struct latLng

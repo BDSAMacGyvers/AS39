@@ -4,6 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{23992CD6-4691-421D-A573-CE68E95EEBD5}</ProjectGuid>
+    <ProjectGuid>{6E041589-E59D-4E81-A023-1BC5A9FF7C1A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CalenderTest</RootNamespace>
@@ -35,10 +36,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -54,11 +60,13 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CalendarTest.cs" />
+    <Compile Include="EventTest.cs" />
+    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConsoleApplication2\Calendar.csproj">
-      <Project>{48879496-dc17-4ff0-b37d-2dabb9947e2b}</Project>
+      <Project>{48879496-DC17-4FF0-B37D-2DABB9947E2B}</Project>
       <Name>Calendar</Name>
     </ProjectReference>
   </ItemGroup>

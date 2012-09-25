@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Calendar.cs" />
     <Compile Include="CalendarOverview.cs" />
+    <Compile Include="Persistence.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="Invitation.cs" />
     <Compile Include="Message.cs" />

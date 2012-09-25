@@ -7,7 +7,7 @@ namespace Domain
 {
     class User
     {
-        private string id { get; }
+        private string id { get; set; }
 
         private string name { get; set; }
 
@@ -15,6 +15,6 @@ namespace Domain
 
         private string password { get; set; }
 
-        private Calendar calendar { get;}
+        private Calendar calendar { get; set; }
     }
 }
