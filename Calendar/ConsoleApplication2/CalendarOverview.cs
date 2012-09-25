@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Event
+namespace Domain
 {
-    enum Response
+    class CalendarOverview
     {
-        yes, no, maybe
     }
 }
