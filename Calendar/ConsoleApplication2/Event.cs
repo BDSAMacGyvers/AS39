@@ -84,5 +84,23 @@ namespace EventSpace
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Method to send invitation to all users who have received an invitation,
+        /// but have yet to reply
+        /// </summary>
+        public void resendInvitations()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Method to add a user to the 
+        /// </summary>
+        /// <param name="user">The user to add</param>
+        public void addUser(User user)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
