@@ -37,7 +37,7 @@ namespace CalenderTest
         [TestMethod]
         public void TestRespond()
         {
-
+            cal.respond();
         }
     }
 }

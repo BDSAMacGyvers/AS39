@@ -22,11 +22,9 @@ namespace Domain
 
         public bool CreateEvent() {throw new NotImplementedException(); return true; }
 
-<<<<<<< HEAD
         public void DeleteEvent(int eventId) { throw new NotImplementedException(); }
-=======
+        
         public Event GetEvent(int id) { throw new NotImplementedException(); }
->>>>>>> b9c44940e2690596e425fcc5bc0de566082ce129
 
         public Event GetEvent(int id)
         {
