@@ -8,9 +8,7 @@ namespace Domain
 {
     class CalendarOverview
     {
-        private Calendar[] calenders;
-
-        public void Forward(Invitation inviation) { }
+        private Calendar[] calendars;
 
     }
 }

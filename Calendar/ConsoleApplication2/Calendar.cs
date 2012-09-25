@@ -16,6 +16,8 @@ namespace Domain
 
         private HashSet<Invitation> invitations;
 
+
+
         public void CreateEvent() { }
 
         public void DeleteEvent() { }
